@@ -1,0 +1,16 @@
+type: object
+properties:
+  httpStatus:
+    type: string
+  errorCode:
+    type: string
+  additionalInfo:
+    type: object
+    properties:
+      key:
+        type: string
+      value:
+        type: string
+required:
+  - status
+  - errorCode

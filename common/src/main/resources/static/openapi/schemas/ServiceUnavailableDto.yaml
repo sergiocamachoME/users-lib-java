@@ -1,0 +1,8 @@
+description: ServiceUnavailable
+content:
+  application/json:
+    schema:
+      $ref: './ApiErrorDto.yaml'
+    example:
+      status: 503
+      errorCode: S5030000

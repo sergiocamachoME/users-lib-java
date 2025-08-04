@@ -1,0 +1,8 @@
+description: ForbiddenException
+content:
+  application/json:
+    schema:
+      $ref: './ApiErrorDto.yaml'
+    example:
+      status: 403
+      errorCode: C4000000
