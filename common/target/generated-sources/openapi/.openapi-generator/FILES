@@ -3,4 +3,6 @@ src/main/java/org/openapitools/model/ApiErrorDto.java
 src/main/java/org/openapitools/model/ApiErrorDtoAdditionalInfo.java
 src/main/java/org/openapitools/model/LoginRequestDto.java
 src/main/java/org/openapitools/model/LoginResponseDto.java
+src/main/java/org/openapitools/model/LogoutRequestDto.java
+src/main/java/org/openapitools/model/LogoutResponseDto.java
 src/main/java/org/openapitools/model/UserLoginInfoDto.java

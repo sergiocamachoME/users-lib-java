@@ -1,6 +1,8 @@
 org\openapitools\model\LoginRequestDto.class
 org\openapitools\model\UserLoginInfoDto.class
 org\openapitools\model\ApiErrorDto.class
+org\openapitools\model\LogoutResponseDto.class
 org\openapitools\model\LoginResponseDto.class
 org\openapitools\api\ApiUtil.class
 org\openapitools\model\ApiErrorDtoAdditionalInfo.class
+org\openapitools\model\LogoutRequestDto.class

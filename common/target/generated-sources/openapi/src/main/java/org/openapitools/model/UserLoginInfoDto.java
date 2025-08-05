@@ -19,7 +19,7 @@ import jakarta.annotation.Generated;
  * UserLoginInfoDto
  */
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-07-29T13:51:42.946692600+02:00[Europe/Madrid]", comments = "Generator version: 7.10.0")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-08-04T14:27:06.675010900+02:00[Europe/Madrid]", comments = "Generator version: 7.10.0")
 public class UserLoginInfoDto implements Serializable {
 
   private static final long serialVersionUID = 1L;

@@ -1,0 +1,23 @@
+post:
+  tags:
+    - logout
+  operationId: logout
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: '../schemas/LogoutRequestDto.yaml'
+  responses:
+    200:
+      description: successful operation
+      content:
+        application/json:
+          schema:
+            $ref: '../schemas/LogoutResponseDto.yaml'
+    401:
+      $ref: '../schemas/ForbiddenExceptionDto.yaml'
+    400:
+      $ref: '../schemas/BadRequestDto.yaml'
+    503:
+      $ref: '../schemas/ServiceUnavailableDto.yaml'

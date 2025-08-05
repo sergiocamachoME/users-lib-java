@@ -1,0 +1,8 @@
+type: object
+properties:
+  message:
+    type: string
+    example: Logout exitoso
+  success:
+    type: boolean
+    example: true

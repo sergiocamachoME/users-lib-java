@@ -23,3 +23,5 @@ tags:
 paths:
   /auth/login:
     $ref: "./openapi/paths/login.yaml"
+  /auth/logout:
+    $ref: "./openapi/paths/logout.yaml"
