@@ -2,12 +2,13 @@ post:
   tags:
     - logout
   operationId: logout
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          $ref: '../schemas/LogoutRequestDto.yaml'
+  parameters:
+    - name: Authorization
+      in: header
+      required: true
+      schema:
+        type: string
+      description: 'Bearer {token}'
   responses:
     200:
       description: successful operation
