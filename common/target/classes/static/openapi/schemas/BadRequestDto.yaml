@@ -1,8 +1,0 @@
-description: Bad Request
-content:
-  application/json:
-    schema:
-      $ref: './ApiErrorDto.yaml'
-    example:
-      status: 400
-      errorCode: C4000000
