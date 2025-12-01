@@ -15,10 +15,10 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <essential-spring-boot.version>0.2.1-SNAPSHOT</essential-spring-boot.version>
-        <essential-common.version>0.2.1-SNAPSHOT</essential-common.version>
-        <essential-open-api.version>0.2.1-SNAPSHOT</essential-open-api.version>
-        <essential-data.version>0.2.1-SNAPSHOT</essential-data.version>
+        <essential-spring-boot.version>0.3.0-SNAPSHOT</essential-spring-boot.version>
+        <essential-common.version>0.3.0-SNAPSHOT</essential-common.version>
+        <essential-open-api.version>0.3.0-SNAPSHOT</essential-open-api.version>
+        <essential-data.version>0.3.0-SNAPSHOT</essential-data.version>
     </properties>
 
     <dependencies>
