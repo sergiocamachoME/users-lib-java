@@ -7,3 +7,5 @@ properties:
     type: string
   email:
     type: string
+  warehouseId:
+    type: string
